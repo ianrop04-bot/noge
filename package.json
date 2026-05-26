@@ -1,0 +1,17 @@
+{
+  "name":"NeXfgen Api",
+  "description": "A nexfgen Hub Api key",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+
+  "dependencies": {
+    "yt-search": "^2.13.1",
+    "axios": "^1.15.2",
+    "express": "^4.22.2",
+    "nodemailer": "^8.0.7",
+    "cors": "^2.8.6"
+  }
+}
