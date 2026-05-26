@@ -38,7 +38,7 @@ app.post('/send-email', async (req, res) => {
   }
 })
 
-const API_KEY = '' // ← Add your TMDB API key here
+const API_KEY = '89802458aff508c9c6eff8b7290d8970' // ← Add your TMDB API key here
 
 // FIXED: Typo in route (was '/search/movie/:movie', should use req.params correctly)
 app.get('/search/movie/:movie', async (req, res) => {
